@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartShop | Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Enter Username">
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+        <button class="btn" onclick="login()" style="background: #4a6cf7; color: white;">Login</button>
+        <button class="btn" onclick="goBack()" style="background: #f0f2f2; border: 1px solid #d5d9d9;">Back</button>
+    </div>
+
+    <p id="error" style="color:red; margin-top: 10px;"></p>
+</div>
+
+<script src="sign.js"></script>
+</body>
+</html>
